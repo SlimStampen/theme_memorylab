@@ -3,6 +3,7 @@ theme_ml <- function() {
   require(showtext)
   font <- font_add_google("Nunito", family = "Nunito")
   showtext_auto()
+  showtext_opts(dpi = 300)
   
   theme_bw() %+replace%    #replace elements we want to change
     
